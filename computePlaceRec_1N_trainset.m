@@ -15,7 +15,7 @@ Dataset = 'Nordland';
 %Dataset = 'Berlin';
 
 %saveFolder = 'Results_Individuals_HPCTest/';
-saveFolder = 'Git_Test/';
+saveFolder = 'Nord_TestSet_Results/';
 mkdir(saveFolder);
 
 % CNNHeat     -->   1
@@ -43,7 +43,7 @@ methodStruct.NumCands(2) = 10;
 methodStruct.NumCands(3) = 1;
 
 HPC = 0;    %setting to change if run locally (0), or on HPC server (1).
-Win = 1;    %OS setting
+Win = 1;    %OS setting (Windows = 1 or Ubuntu = 0)
 GPUJob = 1; %Used to remove GPU from HPC options, in order to run A HUGE NUMBER OF JOBS.
 
 experimentNumber = 1;
