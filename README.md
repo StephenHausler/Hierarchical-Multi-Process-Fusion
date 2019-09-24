@@ -21,5 +21,12 @@ Initial Setup Instructions:
 7. Open the 'computePlaceRec' files and set those paths as desired for saving results and dataset choice. Then define the selection of methods to use and the number of candidates to pass between tiers. 
 
 Initial Run Instructions:
-1. Run computeAllFeats.m for the dataset you wish to use. Note: there are some extra features that were not included in the paper, to reduce the paper length and complexity. 
+1. Run computeAllFeats.m for the dataset you wish to use. Note: there are some extra features that were not included in the paper, to reduce the paper length and complexity. Can't guarantee the extra methods are bug free in this version. 
 2. Then run computePlaceRec_1N_testset.m. Alternatively, create your own 'computePlaceRec' file following the structure in the other PlaceRec files.
+
+Acknowledgements:
+Only-Look-Once: Zetao Chen. https://github.com/scutzetao/IROS2017_OnlyLookOnce
+HybridNet: Zetao Chen. https://github.com/scutzetao/DLfeature_PlaceRecog_icra2017
+NetVLAD: Relja Arandjelović. https://github.com/Relja/netvlad
+Sort_nat.m: Douglas M. Schwarz copyright 2008.
+patchNormalizeHMM: Niko Sunderhauf copyright 2013.
