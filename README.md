@@ -10,6 +10,7 @@ Software Requirements:
 5. NetVLAD
 6. HybridNet pre-trained network
 7. Only-Look-Once
+8. A dataset of images, such as Nordland, Berlin (Mapillary), St Lucia, Oxford RobotCar, etc.
 
 Initial Setup Instructions:
 1. Open Config.m and modify lines 63, 71 and 73 to point to the location of MatConvNet.
