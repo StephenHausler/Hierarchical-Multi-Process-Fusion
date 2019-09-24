@@ -2,8 +2,6 @@ clc
 clear
 close all
 
-%rmpath('Features_BugFinder');
-%rmpath('Features');
 %addpath('Features_Berlin');
 addpath('Class_Files');
 addpath('Load_Files');
