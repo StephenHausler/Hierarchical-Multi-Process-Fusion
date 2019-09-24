@@ -11,6 +11,7 @@ Software Requirements:
 6. HybridNet pre-trained network
 7. Only-Look-Once
 8. A dataset of images, such as Nordland, Berlin (Mapillary), St Lucia, Oxford RobotCar, etc.
+9. GPS Matrix, where 1 is within ground truth tolerance. Added createBerlinGPSMatrix.m as an example.
 
 Initial Setup Instructions:
 1. Open Config.m and modify lines 63, 71 and 73 to point to the location of MatConvNet.
