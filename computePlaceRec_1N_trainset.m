@@ -14,7 +14,6 @@ addpath('Helper_Funcs');
 Dataset = 'Nordland';
 %Dataset = 'Berlin';
 
-%saveFolder = 'Results_Individuals_HPCTest/';
 saveFolder = 'Nord_TrainSet_Results/';
 mkdir(saveFolder);
 
