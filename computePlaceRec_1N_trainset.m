@@ -15,7 +15,7 @@ Dataset = 'Nordland';
 %Dataset = 'Berlin';
 
 %saveFolder = 'Results_Individuals_HPCTest/';
-saveFolder = 'Nord_TestSet_Results/';
+saveFolder = 'Nord_TrainSet_Results/';
 mkdir(saveFolder);
 
 % CNNHeat     -->   1
