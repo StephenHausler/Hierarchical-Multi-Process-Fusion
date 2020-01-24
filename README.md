@@ -1,6 +1,6 @@
 # Hierarchical-Multi-Process-Fusion
 
-This repository contains the source code for my ICRA 2020 paper (under review): Hierarchical Multi-Process Fusion.
+This repository contains the source code for my ICRA 2020 paper (accepted): Hierarchical Multi-Process Fusion.
 
 Software Requirements:
 1. MATLAB 2018a or later.
